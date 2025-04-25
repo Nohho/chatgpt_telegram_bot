@@ -181,7 +181,7 @@ async def retry_handle(update: Update, context: CallbackContext):
 async def _vision_message_handle_fn(
     update: Update, context: CallbackContext, use_new_dialog_timeout: bool = True
 ):
-    logger.info('_vision_message_handle_fn')
+    logger.info("Bot started. Starting polling...")
     user_id = update.message.from_user.id
     current_model = db.get_user_attribute(user_id, "current_model")
 
