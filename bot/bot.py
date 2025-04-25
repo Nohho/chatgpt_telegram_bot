@@ -1,5 +1,5 @@
 import io
-MiWforever, [2025/4/25 15:34]
+miwchatbot, [2025/4/25 15:34]
 import logging
 from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters
 from telegram import BotCommand
