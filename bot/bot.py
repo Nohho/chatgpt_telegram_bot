@@ -1,9 +1,9 @@
 import io
-miwchatbot, [2025/4/25 15:34]
 import logging
-from telegram.ext import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters
-from telegram import BotCommand
-
+from telegram.ext 
+import ApplicationBuilder, CommandHandler, MessageHandler, CallbackQueryHandler, filters
+from telegram 
+import BotCommand
 logging.basicConfig(format='%(asctime)s - %(name)s - %(levelname)s - %(message)s', level=logging.INFO)
 logger = logging.getLogger(__name__)
 
